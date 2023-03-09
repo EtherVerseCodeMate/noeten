@@ -1,0 +1,106 @@
+Background:
+The OSI (Open Systems Interconnection) model is a conceptual framework that describes the communication functions of a telecommunication or computing system. 
+It consists of seven layers, each with a specific function and protocols that facilitate communication between devices in a network.
+
+The seven layers of the OSI model are as follows:
+
+Physical layer: This layer defines the physical characteristics of the transmission medium, such as cables, connectors, and network interface cards. 
+It also specifies the voltage levels, bit timing, and synchronization required for transmitting data over the network.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+Data link layer: This layer is responsible for the reliable transfer of data between devices on the same physical network.
+It breaks data into frames, adds headers and trailers to the frames, 
+and provides error detection and correction mechanisms to ensure that data is transferred without errors.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+Network layer: This layer handles the routing of data between different networks. 
+It defines protocols for addressing, routing, and forwarding data packets from the source to the destination across different networks.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+Transport layer: This layer provides end-to-end data delivery services and ensures that data is delivered reliably and in the correct order. 
+It establishes a connection between the source and destination devices, segments data into smaller units if necessary, 
+and provides error recovery and flow control mechanisms.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+Session layer: This layer establishes, manages, and terminates sessions between applications running on different devices. 
+It provides services such as authentication, authorization, and session checkpointing to ensure that applications can resume their sessions if the connection is lost.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+Presentation layer: This layer deals with the syntax and semantics of the data being transmitted.
+It is responsible for data translation, encryption, and compression, and ensures that data is presented in a format that can be understood by the receiving device.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+Application layer: This layer provides services to applications running on the network.
+It defines protocols for specific applications, such as HTTP for web browsing, SMTP for email, and FTP for file transfer.
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+The OSI model does not directly create an Internet. 
+Rather, it provides a framework for organizing and standardizing communication protocols across different networks and devices. 
+The Internet itself is created by the combination of multiple interconnected networks, each of which may use a different set of protocols
+at different layers of the OSI model. 
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+
+However, the OSI model is still used as a reference model for designing and troubleshooting network protocols and devices, 
+and it has influenced the development of many of the protocols used on the Internet today.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+
+The proposed protocol would be a three-layer model that we can call the "Intradependent Services Protocol" (ISP).
+
+The three layers of the ISP are as follows:
+
+Application Services Layer (ASL): This layer is responsible for providing application-specific services to the end-user. It would encompass all the services provided by the existing application layer in the OSI model, such as web browsing, email, file transfer, and video streaming. The ASL would use the existing HTTP protocol as its foundation, with modifications to support new services and features.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+Network Services Layer (NSL): This layer would provide network-specific services to the application layer. 
+It would encompass all the services provided by the transport, network, and data link layers in the OSI model, 
+such as reliability, flow control, congestion control, routing, addressing, and error detection and correction. 
+The NSL would use the existing IP protocol as to create it's own dimensions and foundation, with modifications to support new services and features.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+Physical Services Layer (PSL): This layer would define the physical characteristics of the network, such as the transmission medium, 
+the transmission rate, and the modulation scheme. It would encompass the physical layer in the OSI model. 
+The PSL would use existing physical layer technologies such as fiber optics, wireless communication, and satellite communication to avoid the need to re-invent the wheels;
+thus allowing us to leverage existing infrastructures and already global technologies to generate a decentralized Internet free of from corruption and destruction. 
+Ideally, it would be genius to leverage a new technology that will allows individuals users/nodes to generate their own ISP from scratch to enhance the redundance and safety of the network.
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+By using the ISP, we can have a modular and extensible protocol that allows for the development of new application and 
+network services without disrupting the existing ones. The ISP would be designed to be backward compatible with the existing IP and HTTP protocols, 
+ensuring a smooth transition for existing applications and devices.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is the suggestion to the joint-development of a possible alternate Internet Protocol that builds on top of the existing IP and HTTP protocols.
+In summary, the ISP would be a three-layer protocol that builds on top of the existing IP and 
+HTTP protocols, providing a modular and extensible framework for developing new application and network services.
+Firstly, it is important to note that the creation of a new internet protocol is a complex and multifaceted task that requires extensive knowledge 
+and experience in networking, protocol design, and software development. It is not a task that can be accomplished solely through the development of a Python script.
+
+That being said, Python is a powerful and versatile programming language that can be used for network programming, protocol design, and software development. Here are some general steps one could take to develop a Python script that generates an ISP:
+
+1. Research existing internet protocols: Before designing a new protocol, it is important to have a good understanding of existing internet protocols 
+such as TCP/IP, HTTP, and DNS. Researching the underlying principles and design patterns of these protocols can provide valuable insights 
+into how to design a new protocol that is compatible with existing technologies.
+2. Define the protocol specifications: The next step is to define the specifications for the new ISP protocol. 
+This would involve defining the various layers of the protocol, the services provided by each layer, the protocols used at each layer, and the message formats and data structures used to exchange information between devices.
+3. Implement the protocol in Python: Once the protocol specifications have been defined, the next step is to implement the protocol in Python.
+This would involve writing Python code that implements the various layers of the protocol, handles message encoding and decoding, 
+and performs the various network functions required by the protocol.
+4. Test the protocol: After the protocol has been implemented, it is important to test it thoroughly to ensure that it is reliable, scalable, and performs as expected. This would involve testing the protocol in various network environments, testing for edge cases and error handling, and measuring the performance of the protocol under various loads.
+5. Distribute the protocol via USB or data transfer: Finally, once the protocol has been developed and tested, it can be distributed to other computers via USB or data transfer.
+However, it is important to note that distributing a protocol in this manner does not guarantee its adoption or use by others.
+
+In conclusion, developing a Python script to generate an ISP is a complex and challenging task that requires extensive knowledge
+and experience in networking, protocol design, and software development. 
+While Python can be a powerful tool for developing such a script, it is important to approach this task with caution and thorough research and ingenuity.
